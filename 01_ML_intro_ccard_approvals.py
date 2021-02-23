@@ -168,5 +168,5 @@ confusion_matrix(y_test,y_pred_best_model)                      # Calculate the 
 # A sensible next step would be to use one-hot encoding on the categorical variables
 grid_model_result.cv_results_
 pd.DataFrame(zip(list(cc_apps_colnames),grid_model_result.best_estimator_.coef_[0]))    # Check out the model coefficients. In this case they are not illustrating, because of the encoding we used.
-                                                                                        # They would be useful if we had one-hot encoded the categorical variables, though. Yet, even without
-                                                                                        # We already achieved a somewhat good accuracy (~83%) with a simple categorical encoding and minmax scaler.
+                                                                                        # They would be useful if we had one-hot encoded the categorical variables, though. Yet, even without it,
+                                                                                        # we already achieved a somewhat decent accuracy (~83%) with a simple categorical encoding and minmax scaler.
