@@ -1,6 +1,6 @@
 """
 
-# This project uses UCI Credit Approval data (http://archive.ics.uci.edu/ml/datasets/credit+approval)
+# This script uses UCI Credit Approval data (http://archive.ics.uci.edu/ml/datasets/credit+approval)
 
 """
 
